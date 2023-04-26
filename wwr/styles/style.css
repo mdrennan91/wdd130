@@ -10,7 +10,7 @@ content {
 nav a {
     text-align: center;
     text-decoration: none;
-    color: whitesmoke;
+    color: #FFE8D6;
 }
 
 #hero-msg h1,
@@ -57,7 +57,7 @@ h4 {
     color: whitesmoke;
 }
 .msg h2 {
-    color: whitesmoke;
+    color: #FFE8D6;
 }
 .msg p {
     color: whitesmoke;
