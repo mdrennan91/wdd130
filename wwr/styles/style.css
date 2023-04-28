@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Carlito&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -11,6 +13,7 @@ nav a {
     text-align: center;
     text-decoration: none;
     color: #FFE8D6;
+    padding: 35px;
 }
 
 #hero-msg h1,
@@ -33,25 +36,45 @@ main section {
 
 body {
     background-color: whitesmoke;
+    font-family: 'Architects Daughter', 'carlito', 'helvetica', 'sans-serif';
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
+
+h2 {
+    margin: 0;
+}
+
 header {
     background-color: #6B705C;
 }
+
 nav a:hover {
     background-color: #A5A58D;
     color: black;
 }
 .home-title {
     color: #6B705C;
+    font-size: 2em;
+    font-family: 'Architects Daughter', 'carlito', 'helvetica', 'sans-serif';
+    margin-top: 10px
 }
+
 h4 {
     color: #6B705C;
 }
+
 .book, .join {
+    font-size: 18px;
     background-color: #FFE8D6;
     color: #6B705C;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
+
 .book:hover, .join:hover {
     background-color: #A5A58D;
     color: whitesmoke;
@@ -59,28 +82,42 @@ h4 {
 .msg h2 {
     color: #FFE8D6;
 }
+
 .msg p {
+    font-size: .8em;
     color: whitesmoke;
+    padding-bottom: 15px;
 }
+
 .msg {
     background-color: #6B705C;
+    line-height: 1.5em;
+    padding: 35px;
 }
+
 footer {
     background-color: #6B705C;
     color: #FFE8D6;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
+
 footer a {
     color: #FFE8D6;
     text-decoration: none;
 }
+
 footer a:hover {
     color: #DDBEA9;
 }
+
 .logo {
     width: 80px;
 }
+
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
@@ -90,4 +127,32 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+.rivers-card {
+    margin: 200px 0;
+}
+
+.camping-card {
+    margin: 200px 0;
+}
+
+.rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid black;
+}
+
+main section img {
+    box-sizing: border-box;
 }
