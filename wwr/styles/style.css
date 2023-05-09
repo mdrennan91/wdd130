@@ -100,6 +100,7 @@ footer {
     color: #FFE8D6;
     padding: 25px 50px;
     margin-top: 200px;
+    
 }
 
 footer a {
@@ -137,16 +138,9 @@ footer .social img {
     padding-top: 5px;
 }
 
-.rivers-card {
+.rivers-card, .camping-card, .rapids-card {
     margin: 200px 0;
-}
-
-.camping-card {
-    margin: 200px 0;
-}
-
-.rapids-card {
-    margin: 200px 0;
+    text-align: center;
 }
 
 .card-img {
