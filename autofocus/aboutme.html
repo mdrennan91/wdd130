@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mitchel Drennan | Automotive Photography | About Me</title>
+</head>
+<body>
+    <div id="content">
+        <header>
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images/MDAP.png" alt="Photography Logo">
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="aboutme.html">About Me</a>
+            </nav>
+        </header>
+        <main class="about-me">
+            <div id="background"></div>
+            <section class="msg">
+                <h2>About Me</h2>
+                <p> My name is Mitchel Drennan and I am located in the state of Washinton. I'm an avid photographer with a relentless passion for capturing the essence of vehicles. 
+                    Over the past seven years, I have immersed myself in the art of photography, constantly refining my skills and exploring various genres. 
+                    However, it was automotive photography that truly ignited my creative spark and allowed me to fully express my vision. 
+                    With an unwavering love for anything on wheels, I am dedicated to bringing these magnificent machines to life through my lens. 
+                    From the sleek lines of exotics to the raw power of muscle cars, I thrive on capturing their unique personalities and showcasing them in all their glory. 
+                    It's a fulfilling journey that never ceases to amaze me. Throughout my career, I have had the opportunity to explore different branches of photography, including portraits and nature. 
+                    These experiences have contributed to my growth as an artist, providing me with a diverse skill set that complements my automotive work. 
+                    Drawing inspiration from the natural world and the human spirit, I bring a fresh perspective to every shoot. I have collaborated with prestigious car clubs, sharing my passion with fellow enthusiasts. 
+                    Whether it's an exhilarating nighttime shoot, capturing the motion of a moving vehicle, or curating a themed photoshoot to showcase its personality, I'm committed to delivering captivating images that exceed expectations.
+
+                    While I am based in the state of Washington, I am thrilled to offer my services beyond this region. 
+                    I love exploring new locations, discovering breathtaking scenery, and capturing stunning automotive moments in different settings. 
+                    Whether you have a scenic spot in mind or a particular event you'd like me to cover, I am available to travel for photoshoots. 
+                    From coastal drives to scenic mountain roads, I'm willing to go the extra mile to ensure your vision is brought to life. 
+                    Please keep in mind that travel expenses, including transportation and accommodation, may apply for shoots located outside the eastern Washington area. 
+                    However, rest assured that I will work closely with you to make the process as seamless as possible, ensuring that every detail is taken care of and your experience remains exceptional. 
+                    Don't let distance limit your imagination. Let's collaborate and create stunning automotive imagery, no matter where your inspiration takes us. 
+                    Contact me to discuss your ideas and let's embark on an exciting photographic adventure together. 
+                </p>
+            </section>
+            <div id="img1">
+                <img class="img" src="images/subaru1.jpg" alt="White Subaru STI">
+            </div>
+            <div id="background1"></div>
+            <section class="msg1">
+                <h4>Equipment</h4>
+                <p>When it comes to equipment, I rely on the exceptional capabilities of my trusted Nikon D7200. 
+                    Alongside a collection of carefully selected lenses, I ensure that every detail is impeccably captured. 
+                    To further enhance the quality and bring out the full potential of each photograph, I professionally edit all my images using Adobe Lightroom, adding that extra touch of magic.
+                </p>
+            </section>
+            <div id="background2"></div>
+            <section class="msg2">
+                <h4>Contact</h4>
+                <p>I would love to hear from you! If you're interested in collaborating, have any questions, or simply want to discuss your automotive photography needs, please don't hesitate to reach out. 
+                    I'm always ready to connect with fellow car enthusiasts and potential clients. 
+                    You can contact me by filling out the contact form below and I'll get back to you as soon as possible. 
+                    Let's collaborate and bring your automotive visions to life!
+                </p>
+            </section>
+            <div id="img2">
+                <img class="img" src="images/subaru2.jpg" alt="White Subaru STI">
+            </div>
+            <div id="feedback"></div>
+            <form action="/my-handling-form-page" method="post">
+                <ul>
+                  <li>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="user_name">
+                  </li>
+                  <li>
+                    <label for="mail">Email:</label>
+                    <input type="email" id="mail" name="user_email">
+                  </li>
+                  <li>
+                    <label for="msg">Message:</label>
+                    <textarea id="msg" name="user_message"></textarea>
+                  </li>
+                  <li class="button">
+                    <button type="submit">Send your message</button>
+                  </li>
+                </ul>
+              </form>
+        </main>
+        <footer>
+            <p>Mitchel Drennan Automotive Photography &copy; 2023 - Mitchel Drennan</p>
+            <p><a href="gallery.html">Gallery</a></p>
+            <p><a href="aboutme.html">About Me</a></p>
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/facebook.png" alt="fb icon">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images/twitter.png" alt="twitter icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/instagram.png" alt="instagram icon">
+                </a>
+            </div>
+        </footer>
+    </div>
+    <script>
+        // get the feedback div element so we can do something with it.
+        const feedbackElement = document.getElementById('feedback');
+        // get the form so we can read what was entered in it.
+        const formElement = document.forms[0];
+        // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+        formElement.addEventListener('submit', function(e) {
+            // stop the form from doing the default action.
+            e.preventDefault();
+            // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+            feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+            // make the feedback element visible.
+            feedbackElement.style.display = "block";
+            // add a class to move everything down so our message doesn't cover it.
+            document.body.classList.toggle('moveDown');
+        });
+    </script>
+</body>
+</html>
