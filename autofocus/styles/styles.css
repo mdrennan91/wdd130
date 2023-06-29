@@ -32,7 +32,7 @@ nav a:hover {
 }
 header {
     display: grid;
-    grid-template-columns: 150px auto;;
+    grid-template-columns: 150px auto;
     background-color: black;
 }
 .home-grid {
