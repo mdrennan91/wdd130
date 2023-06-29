@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mitchel Drennan | Automotive Photography | About Me</title>
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
     <div id="content">
@@ -67,24 +68,20 @@
             </div>
             <div id="feedback"></div>
             <form action="/my-handling-form-page" method="post">
-                <ul>
-                  <li>
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="user_name">
-                  </li>
-                  <li>
-                    <label for="mail">Email:</label>
-                    <input type="email" id="mail" name="user_email">
-                  </li>
-                  <li>
-                    <label for="msg">Message:</label>
-                    <textarea id="msg" name="user_message"></textarea>
-                  </li>
-                  <li class="button">
-                    <button type="submit">Send your message</button>
-                  </li>
-                </ul>
-              </form>
+                <div>
+                   <label for="name">Name:</label>
+                   <input type="text" id="name" name="user_name">
+                </div>
+                <div>
+                   <label for="mail">Email:</label>
+                   <input type="email" id="mail" name="user_email">
+                </div>
+                <div>
+                   <label for="msg">Message:</label>
+                   <textarea id="msg" name="user_message"></textarea>
+                </div>
+                <button type="submit">Send your message</button>
+            </form>
         </main>
         <footer>
             <p>Mitchel Drennan Automotive Photography &copy; 2023 - Mitchel Drennan</p>
