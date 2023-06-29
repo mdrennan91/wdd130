@@ -98,7 +98,7 @@ body {
     grid-column: 3/9;
     text-align: center;
     color: whitesmoke;
-    margin-top: 80px;
+    margin-top: 70px;
 }
 .msg h4 {
     grid-row: 3/7;
@@ -110,7 +110,7 @@ body {
 .msg p {
     grid-row: 2/3;
     grid-column: 2/9;
-    font-size: 24px;
+    font-size: 22px;
     color: whitesmoke;
     font-family: 'Lora', 'helvetica', 'sans-serif';
 }
@@ -144,14 +144,11 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
 }
-
 footer a {
     color: #FFEE32;
     text-decoration: none;
 }
-
 footer a:hover {
     color: whitesmoke;
 }
