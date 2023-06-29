@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Overlock+SC&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+content {
+    max-width: 500px;
+    width: 100%
+}
