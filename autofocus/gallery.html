@@ -19,42 +19,93 @@
                 <a href="aboutme.html">About Me</a>
             </nav>
         </header>
-        <main class="gallery-intro">
-            <div id="background"></div>
-            <section class="msg">
-                <h2>Gallery</h2>
+        <main class="gallery-grid">
+            <div id="background_2"></div>
+            <section class="msg_1">
+                <h4>Gallery</h4>
                 <p>Welcome to my automotive photography portfolio! Here you'll find an exciting assortment of images that showcase the dynamic world of cars. 
                     I've captured a wide variety of vehicles with different styles, ranging from sleek sports cars to rugged off-road 4x4's. 
-                    This portfolio is a testament to my passion for showcasing the beauty of all cars no matter their make or model.
+                    This portfolio is a testament to my passion for showcasing the beauty of all cars no matter their make or model.<br><br>
                     I've carefully chosen unique angles and perspectives to bring out the best features of each vehicle. 
                     Whether it's a night shot or a day shot, you'll see how each image has been lovingly crafted to create an impact.
-                    This portfolio is not just a display of my skills as an automotive photograher, it's an invitation for you to join me on a creative journey. 
+                    This portfolio is not just a display of my skills as an automotive photograher, it's an invitation for you to join me on a creative journey.<br><br> 
                     Let's collaborate to create visually stunning images that showcase your vehicles in the best possible light. I'm excited to work with you and bring your automotive visions to life.
                 </p>
             </section>
-            <div id="gallery">
-                <div id="gallery-grid">
-                    <img id="gallery-img1" src="images/lambo1.jpg" alt="Green Lamborghini Huracan">
-                    <img id="gallery-img2" src="images/lambo2.jpg" alt="Green Lamborghini Huracan">
-                    <img id="gallery-img3" src="images/lambo3.jpg" alt="Green Lamborghini Huracan">
-                    <img id="gallery-img4" src="images/lambo4.jpg" alt="Green Lamborghini Huracan">
-                    <img id="gallery-img5" src="images/lambo5.jpg" alt="Green Lamborghini Huracan">
-                    <img id="gallery-img6" src="images/lambo6.jpg" alt="Green Lamborghini Huracan">
-                    <img id="gallery-img7" src="images/civic1.jpg" alt="Silver Honda Civic">
-                    <img id="gallery-img8" src="images/civic2.jpg" alt="Silver Honda Civic">
-                    <img id="gallery-img9" src="images/civic3.jpg" alt="Silver Honda Civic">
-                    <img id="gallery-img10" src="images/civic4.jpg" alt="Silver Honda Civic">
-                    <img id="gallery-img11" src="images/civic5.jpg" alt="Silver Honda Civic">
-                    <img id="gallery-img12" src="images/jeep1.jpg" alt="White Jeep Cherokee">
-                    <img id="gallery-img13" src="images/jeep2.jpg" alt="White Jeep Cherokee">
-                    <img id="gallery-img14" src="images/jeep3.jpg" alt="White Jeep Cherokee">
-                    <img id="gallery-img15" src="images/jeep4.jpg" alt="White Jeep Cherokee">
-                    <img id="gallery-img16" src="images/misc1.jpg" alt="Car Meet">
-                    <img id="gallery-img17" src="images/misc2.jpg" alt="Car Meet">
-                    <img id="gallery-img18" src="images/misc3.jpg" alt="Car Meet">
-                    <img id="gallery-img19" src="images/misc4.jpg" alt="Car Meet">
-                    <img id="gallery-img20" src="images/misc5.jpg" alt="Car Meet">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 21</div>
+                    <img src="images/lambo2.jpg" style="width:100%">
+                    <div class="text">Lamborghini Huracan</div>
                 </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 21</div>
+                    <img src="images/lambo5.jpg" style="width:100%">
+                    <div class="text">Lamborghini Huracan</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 21</div>
+                    <img src="images/civic1.jpg" style="width:100%">
+                    <div class="text">Honda Civic</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 21</div>
+                    <img src="images/civic2.jpg" style="width:100%">
+                    <div class="text">Honda Civic</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">5 / 21</div>
+                    <img src="images/civic3.jpg" style="width:100%">
+                    <div class="text">Honda Civic</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">6 / 21</div>
+                    <img src="images/jeep1.jpg" style="width:100%">
+                    <div class="text">Jeep Cherokee</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">7 / 21</div>
+                    <img src="images/misc1.jpg" style="width:100%">
+                    <div class="text">RX-7</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">8 / 21</div>
+                    <img src="images/misc2.jpg" style="width:100%">
+                    <div class="text">Subaru BRZ</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">9 / 21</div>
+                    <img src="images/misc3.jpg" style="width:100%">
+                    <div class="text">Honda Civic</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">10 / 21</div>
+                    <img src="images/misc4.jpg" style="width:100%">
+                    <div class="text">Honda Civic</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">11 / 21</div>
+                    <img src="images/misc5.jpg" style="width:100%">
+                    <div class="text">Nissan 350Z</div>
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+              
+              <!-- The dots/circles -->
+            <div class="buttons" style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+                <span class="dot" onclick="currentSlide(7)"></span>
+                <span class="dot" onclick="currentSlide(8)"></span>
+                <span class="dot" onclick="currentSlide(9)"></span>
+                <span class="dot" onclick="currentSlide(10)"></span>
+                <span class="dot" onclick="currentSlide(11)"></span>
             </div>
         </main>
         <footer>
@@ -74,5 +125,35 @@
             </div>
         </footer>
     </div>
+    <script>
+        let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+    </script>
 </body>
 </html>
