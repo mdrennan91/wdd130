@@ -226,6 +226,23 @@ footer a:hover {
       flex: 50%;
       max-width: 50%;
     }
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    footer {
+        margin-top: 25px;
+    }
   }
   
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
@@ -234,4 +251,5 @@ footer a:hover {
       flex: 100%;
       max-width: 100%;
     }
+
   }
