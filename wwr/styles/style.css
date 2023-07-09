@@ -444,7 +444,7 @@ form {
         margin-top: 0;
     }
     #hero-msg {
-        margin-top: 0;
+        margin-top: -50px;
         color: #6B705C;
     }
     #hero-msg h4 {
